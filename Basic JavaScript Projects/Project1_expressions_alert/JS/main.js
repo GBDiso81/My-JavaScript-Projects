@@ -4,7 +4,7 @@ window.alert("Hello, World!");
 
 document.write("Hello, World!");
 
-var A="This is Variable Assignment!";
+var A="This is Variable Assignment!"; //Defining a variable and giving it a string value
 document.write(A);
 
 var B = alert("Hello,World!");
@@ -23,3 +23,4 @@ var Family = "Diso", Dad = "Glen Mark", Mom ="Salve Jhane"; Daughter = "Glesa Ma
 
 1000 * 30
     document.write(1000*30);
+
