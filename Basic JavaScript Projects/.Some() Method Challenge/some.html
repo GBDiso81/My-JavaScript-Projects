@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="" defer></script>
+    <link rel="stylesheet" href="">
+    <meta charset="utf-8">
+    <title>Arrow Function</title>
+
+</head>
+
+    <body>
+
+        <strong><p id="demo"></p></strong>
+
+        <script>
+        const numbers = [20, 33, 19, 54, 41, 17, 22, 30, 59];
+        let someOver60 = numbers.some(myFunction);
+
+        document.getElementById("demo").innerHTML = "For the given ages, senior applicant is " + someOver60 + ".";
+
+        function myFunction(value) {
+        return value > 60;
+        }
+        </script>
+
+    </body>
+</html>
